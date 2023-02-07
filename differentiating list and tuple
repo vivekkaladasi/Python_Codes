@@ -1,0 +1,6 @@
+#creating a list and a tuple  
+list_ = ["Python", "Lists", "Tuples", "Differences"]  
+tuple_ = ("Python", "Lists", "Tuples", "Differences")  
+# printing sizes   
+print("Size of tuple: ", tuple_.__sizeof__())  
+print("Size of list: ", list_.__sizeof__()) 
